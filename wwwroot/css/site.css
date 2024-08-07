@@ -1,0 +1,40 @@
+/* site.css */
+
+body {
+  background-color: #F8E0E0; /* Light peach background */
+  color: #FF6F6F; /* Light pink text */
+}
+
+.journal-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.journal-list li {
+  border-bottom: 1px solid #FF6F6F;
+  padding: 10px 0;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.todo-item::before {
+  content: "❤️"; /* Heart bullet point */
+  margin-right: 10px;
+}
+
+.todo-item.completed::before {
+  text-decoration: line-through; /* Cross out heart bullet point */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
