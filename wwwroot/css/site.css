@@ -2,7 +2,7 @@
 
 body {
   background-color: #F8E0E0; /* Light peach background */
-  color: #FF6F6F; /* Light pink text */
+  color: #ff69b4; /* Light pink text */
 }
 
 .journal-list {
@@ -11,8 +11,8 @@ body {
 }
 
 .journal-list li {
-  border-bottom: 1px solid #FF6F6F;
-  padding: 10px 0;
+  border-bottom: 1px solid #ff69b4;
+  padding: 2rem 0;
 }
 
 .todo-list {
@@ -23,12 +23,12 @@ body {
 .todo-item {
   display: flex;
   align-items: center;
-  padding: 5px 0;
+  padding: 2rem 0;
 }
 
 .todo-item::before {
   content: "❤️"; /* Heart bullet point */
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .todo-item.completed::before {
@@ -36,5 +36,5 @@ body {
 }
 
 input[type="checkbox"] {
-  margin-right: 10px;
+  margin-right: 1rem;
 }

@@ -1,10 +1,13 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JournalToDoApp.Models
 {
     public class JournalEntry
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required]
@@ -14,6 +17,8 @@ namespace JournalToDoApp.Models
         public string Content { get; set; } = string.Empty;
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+        public DateTime Date { get; set; } = DateTime.Today; // Add a Date field
 
         public string UserId { get; set; } = string.Empty;
         

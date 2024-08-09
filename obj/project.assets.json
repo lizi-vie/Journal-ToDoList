@@ -9742,11 +9742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lizi/JournalToDoApp/JournalToDoApp.csproj",
+      "projectUniqueName": "/Users/lizi/Documents/GitHub/Journal-ToDoList/JournalToDoApp.csproj",
       "projectName": "JournalToDoApp",
-      "projectPath": "/Users/lizi/JournalToDoApp/JournalToDoApp.csproj",
+      "projectPath": "/Users/lizi/Documents/GitHub/Journal-ToDoList/JournalToDoApp.csproj",
       "packagesPath": "/Users/lizi/.nuget/packages/",
-      "outputPath": "/Users/lizi/JournalToDoApp/obj/",
+      "outputPath": "/Users/lizi/Documents/GitHub/Journal-ToDoList/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lizi/.nuget/NuGet/NuGet.Config"

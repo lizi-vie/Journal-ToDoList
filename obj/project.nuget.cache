@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HQetUf7szCtlutKBH3DRA+9om8rky9IehosH52b5mEvJP/V6YqLHx2TNMEONLkODjIq3d2m5rUYhpS7xfXE3SQ==",
+  "dgSpecHash": "pIAbz7jwCtgRBWc6F7+ZcVYaWXfMgwOMJCFHiSXEOsm300B8mdvMEM9h0vAKNmKubeILQpWowVbjsVrBEa+PNg==",
   "success": true,
-  "projectFilePath": "/Users/lizi/JournalToDoApp/JournalToDoApp.csproj",
+  "projectFilePath": "/Users/lizi/Documents/GitHub/Journal-ToDoList/JournalToDoApp.csproj",
   "expectedPackageFiles": [
     "/Users/lizi/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/lizi/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
